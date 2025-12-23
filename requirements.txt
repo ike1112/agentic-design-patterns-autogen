@@ -1,0 +1,11 @@
+# requirements file
+# Note: This project requires Python 3.10, 3.11, or 3.12.
+# Python 3.14 remains incompatible with pyautogen.
+
+pyautogen>=0.2.0
+chess
+matplotlib
+numpy
+pandas
+yfinance
+python-dotenv
