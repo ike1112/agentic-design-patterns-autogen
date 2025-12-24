@@ -11,10 +11,7 @@ if not GOOGLE_API_KEY:
     print("Error: GOOGLE_API_KEY not found in environment variables.")
     exit(1)
 
-# Configure Gemini for AutoGen
-# Note: AG2 (formerly AutoGen) supports Gemini via the 'google' api_type or 'openai' compatible endpoints.
-# Since we installed 'ag2[openai]', we often use the 'google' type or the openai adapter.
-# Standard 0.2 configuration for Gemini:
+
 llm_config = {
     "config_list": [
         {
