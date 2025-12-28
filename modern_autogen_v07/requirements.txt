@@ -1,5 +1,5 @@
 autogen-agentchat
-autogen-ext[openai,web-surfer,magentic-one,file-surfer]
+autogen-ext[openai,web-surfer,magentic-one,file-surfer,docker]
 python-dotenv
 opentelemetry-api
 opentelemetry-sdk
