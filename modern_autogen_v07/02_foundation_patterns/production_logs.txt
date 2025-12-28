@@ -1,0 +1,10 @@
+
+2023-10-27 10:00:01 INFO [AuthService] User login successful: user_id=1001
+2023-10-27 10:05:23 WARN [DbConnection] Pool usage at 85%
+2023-10-27 10:06:00 ERROR [ApiGateway] 503 Service Unavailable - Upstream connect error
+2023-10-27 10:06:01 ERROR [OrderService] ConnectionRefusedError: [Errno 111] Connection refused
+    at /app/services/order.py:45 in create_order
+    at /app/db/connection.py:12 in get_db
+Caused by: FATAL: remaining connection slots are reserved for non-replication superuser connections
+2023-10-27 10:06:05 INFO [HealthCheck] Retry attempt 1 failed
+    
